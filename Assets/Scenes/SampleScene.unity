@@ -383,6 +383,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8012455835005473789, guid: 138cfc469e61a964b909da483449a582, type: 3}
+      propertyPath: paddingBottom
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -396,6 +400,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2739394795985315470, guid: aef5fd136dfe8aa4dafec01e09dca170, type: 3}
+      propertyPath: waveConfig
+      value: 
+      objectReference: {fileID: 11400000, guid: c71ae960a42dd2f4ea0b4bc3f38f1861, type: 2}
     - target: {fileID: 4171843831104203809, guid: aef5fd136dfe8aa4dafec01e09dca170, type: 3}
       propertyPath: m_Name
       value: enemy 0
