@@ -25,12 +25,12 @@
                 },
                 {
                     "name": "Fire",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "0974fadb-8163-4a7b-8929-828d1021a5b7",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -250,6 +250,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "XR",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7fa53c1f-d026-47a2-9b3c-0321d88f0a55",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "Fire",
                     "isComposite": false,
                     "isPartOfComposite": false
