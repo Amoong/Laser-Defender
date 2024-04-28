@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 20
+  hitEffect: {fileID: 5915462191440392523, guid: eb52454efdbd79346830bafa2f2ebbb7, type: 3}
 --- !u!114 &976185111104483871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,6 +173,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26200ec6c5d2f3e41bad53b9b539a75b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 10
+  projectileLifetime: 5
+  baseFiringRate: 0.2
+  useAI: 0
+  firingRateVariance: 0
+  minimumFiringRate: 0.1
+  isFiring: 0
 --- !u!1 &7643092938715352014
 GameObject:
   m_ObjectHideFlags: 0
