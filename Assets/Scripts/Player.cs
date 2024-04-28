@@ -40,9 +40,6 @@ public class Player : MonoBehaviour
         Camera mainCamera = Camera.main;
         minBounds = mainCamera.ViewportToWorldPoint(new Vector2(0, 0));
         maxBounds = mainCamera.ViewportToWorldPoint(new Vector2(1, 1));
-
-        Debug.Log(minBounds);
-        Debug.Log(maxBounds);
     }
 
     void Move()

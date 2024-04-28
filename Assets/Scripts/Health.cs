@@ -7,6 +7,15 @@ public class Health : MonoBehaviour
 {
     [SerializeField] int health = 50;
     [SerializeField] ParticleSystem hitEffect;
+    [SerializeField] bool applyCameraShake = false;
+
+    CameraShake cameraShake;
+
+    void Start()
+    {
+        cameraShake = Camera.main.GetComponent<CameraShake>();
+    }
+
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -22,11 +31,21 @@ public class Health : MonoBehaviour
 
     void TakeDamage(int damage)
     {
+        ShakeCamera();
+
         health -= damage;
 
         if (health <= 0)
         {
             Destroy(gameObject);
+        }
+    }
+
+    void ShakeCamera()
+    {
+        if (applyCameraShake && cameraShake != null)
+        {
+            cameraShake.Play();
         }
     }
 

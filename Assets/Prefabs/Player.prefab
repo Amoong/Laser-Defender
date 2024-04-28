@@ -159,8 +159,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f23ec59af7298d45b95cb9153338fb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
+  health: 100
   hitEffect: {fileID: 5915462191440392523, guid: eb52454efdbd79346830bafa2f2ebbb7, type: 3}
+  isPlayer: 1
 --- !u!114 &976185111104483871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,7 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26200ec6c5d2f3e41bad53b9b539a75b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 0}
+  projectilePrefab: {fileID: 3143214045729192696, guid: d4941a654f84ad540955ab5decfc5adf, type: 3}
   projectileSpeed: 10
   projectileLifetime: 5
   baseFiringRate: 0.2
@@ -253,7 +254,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 134cb687423324a4aae678bdf558d97e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
