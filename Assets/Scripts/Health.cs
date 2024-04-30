@@ -16,7 +16,9 @@ public class Health : MonoBehaviour
     AudioPlayer audioPlayer;
     ScoreKeeper scoreKeeper;
 
-    int GetHealth()
+    int maxHealth;
+
+    public float GetHealth()
     {
         return health;
     }
@@ -25,6 +27,7 @@ public class Health : MonoBehaviour
     {
         audioPlayer = FindObjectOfType<AudioPlayer>();
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
+        maxHealth = health;
     }
 
     void Start()
